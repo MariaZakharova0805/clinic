@@ -1,0 +1,54 @@
+.SpecialOffers {
+  width: 90%;
+  margin: 220px auto 200px auto;
+}
+
+.offers {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.item {
+  width: 45%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 100%;
+  padding: 30px 25px;
+  background-color: #e8eff1;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 10px;
+}
+
+.image {
+  width: 30%;
+}
+
+.button {
+  height: 46px;
+  width: 95%;
+  color: #00b2ac;
+  background-color: #fff;
+  border: 1px solid;
+  border-radius: 8px;
+  font-size: 20px;
+  position: absoulte;
+  bottom: 0;
+  margin-bottom: 0;
+}
+.button:hover {
+  color: #fff;
+  background-color: #00b2ac;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+  .SpecialOffers {
+    margin: 140px auto 200px auto;
+  }
+}

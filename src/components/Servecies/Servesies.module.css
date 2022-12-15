@@ -1,0 +1,82 @@
+.servecies {
+  width: 90%;
+  margin: 220px auto 200px auto;
+}
+.searchWrapper {
+  width: 100%;
+}
+.search {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.searchBox {
+  box-sizing: border-box;
+  width: 50%;
+  height: 48px;
+  border: 1px solid #b1b1b1;
+  border-radius: 5px 0px 0px 5px;
+}
+.searchBox::placeholder {
+  color: #a3a3a3;
+  font-size: 15px;
+}
+input {
+  padding-left: 30px;
+}
+input:focus {
+  outline: none;
+}
+.searchButton {
+  box-sizing: border-box;
+  width: 20%;
+  height: 48px;
+  border-radius: 0px 5px 5px 0px;
+  border: 1px solid #00abaa;
+  background-color: #00abaa;
+  color: white;
+  font-size: 18px;
+  padding-bottom: 3px;
+  margin-left: -3px;
+}
+
+.serveciesList {
+  font-size: 20px;
+}
+.serveciesList li {
+  padding: 10px 0 0 0;
+  color: #00abaa;
+}
+span {
+  color: black;
+}
+
+@media screen and (max-width: 900px) {
+  .servecies {
+    width: 90%;
+    margin: 140px auto 200px auto;
+  }
+  .header {
+    font-size: 20px;
+  }
+
+  .searchBox {
+    width: 70%;
+    height: 30px;
+  }
+
+  .searchButton {
+    width: 30%;
+    height: 30px;
+    font-size: 15px;
+  }
+  .searchBox::placeholder {
+    color: #a3a3a3;
+    font-size: 10px;
+  }
+  .serveciesList {
+    font-size: 15px;
+  }
+}

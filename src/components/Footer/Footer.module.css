@@ -1,0 +1,109 @@
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 5;
+  width: 100%;
+  height: fit-content;
+  background-color: #f5f5f5;
+}
+.footer_content {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 10px 0 30px 30px;
+}
+.footer_item {
+  margin-left: 5em;
+}
+.footer_item_header {
+  color: #00abaa;
+  font-size: 25px;
+  font-weight: 600;
+}
+.footer_item_text {
+  display: inline;
+}
+.footer_item_text:hover {
+  color: #00abaa;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+}
+.icon:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .footer {
+    width: 100%;
+  }
+  .footer_content {
+    width: 100%;
+    margin: 0 0 5px 0;
+    flex-wrap: wrap;
+  }
+  .footer_item {
+    margin: 0px;
+    width: 40%;
+    margin-left: 1em;
+  }
+
+  .footer_item_header {
+    font-size: 15px;
+    margin: 5px 0 0 0;
+  }
+  .footer_item_text p {
+    font-size: 12px;
+    margin: 0px;
+    padding: 0;
+  }
+
+  .footer_content {
+    flex-wrap: wrap;
+  }
+  .icon {
+    width: 20px;
+    height: 20px;
+  }
+}

@@ -1,0 +1,126 @@
+.doctors {
+  width: 90%;
+  margin: 220px auto 200px auto;
+}
+.searchWrapper {
+  width: 100%;
+}
+.search {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.searchBox {
+  box-sizing: border-box;
+  width: 50%;
+  height: 48px;
+  border: 1px solid #b1b1b1;
+  border-radius: 5px 0px 0px 5px;
+}
+.searchBox::placeholder {
+  color: #a3a3a3;
+  font-size: 15px;
+}
+input {
+  padding-left: 30px;
+}
+input:focus {
+  outline: none;
+}
+.searchButton {
+  box-sizing: border-box;
+  width: 20%;
+  height: 48px;
+  border-radius: 0px 5px 5px 0px;
+  border: 1px solid #00abaa;
+  background-color: #00abaa;
+  color: white;
+  font-size: 18px;
+  padding-bottom: 3px;
+  margin-left: -3px;
+}
+
+/* doctors_list */
+.doctors_list {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+p {
+  word-wrap: break-word;
+}
+.doctor {
+  width: 20em;
+  height: 680px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  box-shadow: 5px 10px 10px 5px rgb(229 233 246 / 40%);
+}
+
+.doctor_img {
+  width: 100%;
+  height: auto;
+}
+
+.docButton {
+  height: 46px;
+  width: 95%;
+  color: #00b2ac;
+  background-color: #fff;
+  border: 1px solid;
+  border-radius: 8px;
+  font-size: 20px;
+  margin-top: auto;
+  bottom: 0;
+}
+.docButton:hover {
+  color: #fff;
+  background-color: #00b2ac;
+  cursor: pointer;
+}
+
+.boldText {
+  font-weight: 600;
+}
+
+@media screen and (max-width: 900px) {
+  .servecies {
+    margin: 140px auto 200px auto;
+  }
+  .header {
+    font-size: 20px;
+  }
+
+  .searchBox {
+    width: 70%;
+    height: 30px;
+  }
+
+  .searchButton {
+    width: 30%;
+    height: 30px;
+    font-size: 15px;
+  }
+  .searchBox::placeholder {
+    color: #a3a3a3;
+    font-size: 10px;
+  }
+
+  .doctors_list {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .doctor {
+    width: 90%;
+    margin: 10px auto;
+  }
+}
