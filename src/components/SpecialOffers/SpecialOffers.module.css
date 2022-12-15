@@ -49,6 +49,23 @@
 
 @media screen and (max-width: 900px) {
   .SpecialOffers {
-    margin: 140px auto 200px auto;
+    margin: 200px auto 200px auto;
+  }
+  .offers {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .item {
+    width: 80%;
+    margin: 5px auto;
+  }
+  h2 {
+    font-size: 15px;
+  }
+  p {
+    font-size: 12px;
+  }
+  .button {
+    font-size: 15px;
   }
 }

@@ -56,7 +56,8 @@ span {
 @media screen and (max-width: 900px) {
   .servecies {
     width: 90%;
-    margin: 140px auto 200px auto;
+    margin: 200px auto 200px auto;
+
   }
   .header {
     font-size: 20px;

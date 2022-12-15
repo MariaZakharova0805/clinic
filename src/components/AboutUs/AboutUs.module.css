@@ -99,7 +99,7 @@ span {
 
 @media screen and (max-width: 900px) {
   .aboutUs {
-    margin: 140px auto 200px auto;
+    margin: 200px auto 200px auto;
   }
 
   .header_content {
