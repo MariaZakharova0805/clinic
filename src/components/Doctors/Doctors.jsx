@@ -31,20 +31,22 @@ const Doctors = () => {
               alt=""
             />
           </div>
-          <h4>Пупкин Иван Иванович</h4>
-          <p>
-            <span className={c.boldText}>Специальность:</span> массажиcт
-          </p>
-          <p>
-            <span className={c.boldText}>Стаж работы:</span> 38 лет
-          </p>
-          <p>
-            <span className={c.boldText}>Услуги:</span> спортивный масаж,
-            лечебный массаж, детский массаж
-          </p>
-          <a href="tel:+79162869949">
-            <button className={c.docButton}>Записаться на прием</button>
-          </a>
+          <div className={c.doctor_aboutText}>
+            <h4>Пупкин Иван Иванович</h4>
+            <p>
+              <span className={c.boldText}>Специальность:</span> массажиcт
+            </p>
+            <p>
+              <span className={c.boldText}>Стаж работы:</span> 38 лет
+            </p>
+            <p className={c.about}>
+              <span className={c.boldText}>Услуги:</span> спортивный масаж,
+              лечебный массаж, детский массаж
+            </p>
+            <a href="tel:+79162869949">
+              <button className={c.docButton}>Записаться на прием</button>
+            </a>
+          </div>
         </div>
 
         <div className={c.doctor}>
@@ -54,20 +56,22 @@ const Doctors = () => {
               alt=""
             />
           </div>
-          <h4>Васильева Василиса Васильевна</h4>
-          <p>
-            <span className={c.boldText}>Специальность:</span> косметолог
-          </p>
-          <p>
-            <span className={c.boldText}>Стаж работы:</span> 10 лет
-          </p>
-          <p>
-            <span className={c.boldText}>Услуги:</span> эстетический массаж,
-            лифтинг, лазерное лечение, фотоомоложение, ультразвуковая чистка
-          </p>
-          <a href="tel:+79162869949">
-            <button className={c.docButton}>Записаться на прием</button>
-          </a>
+          <div className={c.doctor_aboutText}>
+            <h4>Васильева Василиса Васильевна</h4>
+            <p>
+              <span className={c.boldText}>Специальность:</span> косметолог
+            </p>
+            <p>
+              <span className={c.boldText}>Стаж работы:</span> 10 лет
+            </p>
+            <p className={c.about}>
+              <span className={c.boldText}>Услуги:</span> эстетический массаж,
+              лифтинг, лазерное лечение, фотоомоложение, ультразвуковая чистка
+            </p>
+            <a href="tel:+79162869949">
+              <button className={c.docButton}>Записаться на прием</button>
+            </a>
+          </div>
         </div>
 
         <div className={c.doctor}>
@@ -77,20 +81,22 @@ const Doctors = () => {
               alt=""
             />
           </div>
-          <h4>Сидоров Петр Петрович</h4>
-          <p>
-            <span className={c.boldText}>Специальность:</span> массажиcт
-          </p>
-          <p>
-            <span className={c.boldText}>Стаж работы:</span> 8 лет
-          </p>
-          <p>
-            <span className={c.boldText}>Услуги:</span> общий массаж,
-            антицелюлитный массаж, точечный массаж, баночный массаж
-          </p>
-          <a href="tel:+79162869949">
-            <button className={c.docButton}>Записаться на прием</button>
-          </a>
+          <div className={c.doctor_aboutText}>
+            <h4>Сидоров Петр Петрович</h4>
+            <p>
+              <span className={c.boldText}>Специальность:</span> массажиcт
+            </p>
+            <p>
+              <span className={c.boldText}>Стаж работы:</span> 8 лет
+            </p>
+            <p className={c.about}>
+              <span className={c.boldText}>Услуги:</span> общий массаж,
+              антицелюлитный массаж, точечный массаж, баночный массаж
+            </p>
+            <a href="tel:+79162869949">
+              <button className={c.docButton}>Записаться на прием</button>
+            </a>
+          </div>
         </div>
 
         <div className={c.doctor}>
@@ -100,20 +106,23 @@ const Doctors = () => {
               alt=""
             />
           </div>
+          <div className={c.doctor_aboutText}>
           <h4>Пупкин Иван Иванович</h4>
-          <p>
-            <span className={c.boldText}>Специальность:</span> массажиcт
-          </p>
-          <p>
-            <span className={c.boldText}>Стаж работы:</span> 38 лет
-          </p>
-          <p>
-            <span className={c.boldText}>Услуги:</span> спортивный масаж,
-            лечебный массаж, детский массаж
-          </p>
-          <a href="tel:+79162869949">
-            <button className={c.docButton}>Записаться на прием</button>
-          </a>
+            <p>
+              <span className={c.boldText}>Специальность:</span> массажиcт
+            </p>
+            <p>
+              <span className={c.boldText}>Стаж работы:</span> 38 лет
+            </p>
+            <p className={c.about}>
+              <span className={c.boldText}>Услуги:</span> спортивный масаж,
+              лечебный массаж, детский массаж
+            </p>
+            <a href="tel:+79162869949">
+              <button className={c.docButton}>Записаться на прием</button>
+            </a>
+          </div>
+          
         </div>
 
         <div className={c.doctor}>
@@ -123,20 +132,22 @@ const Doctors = () => {
               alt=""
             />
           </div>
-          <h4>Васильева Василиса Васильевна</h4>
-          <p>
-            <span className={c.boldText}>Специальность:</span> косметолог
-          </p>
-          <p>
-            <span className={c.boldText}>Стаж работы:</span> 10 лет
-          </p>
-          <p>
-            <span className={c.boldText}>Услуги:</span> эстетический массаж,
-            лифтинг, лазерное лечение, фотоомоложение, ультразвуковая чистка
-          </p>
-          <a href="tel:+79162869949">
-            <button className={c.docButton}>Записаться на прием</button>
-          </a>
+          <div className={c.doctor_aboutText}>
+            <h4>Васильева Василиса Васильевна</h4>
+            <p>
+              <span className={c.boldText}>Специальность:</span> косметолог
+            </p>
+            <p>
+              <span className={c.boldText}>Стаж работы:</span> 10 лет
+            </p>
+            <p className={c.about}>
+              <span className={c.boldText}>Услуги:</span> эстетический массаж,
+              лифтинг, лазерное лечение, фотоомоложение, ультразвуковая чистка
+            </p>
+            <a href="tel:+79162869949">
+              <button className={c.docButton}>Записаться на прием</button>
+            </a>
+          </div>
         </div>
 
         <div className={c.doctor}>
@@ -146,61 +157,20 @@ const Doctors = () => {
               alt=""
             />
           </div>
-          <h4>Сидоров Петр Петрович</h4>
-          <p>
-            <span className={c.boldText}>Специальность:</span> массажиcт
-          </p>
-          <p>
-            <span className={c.boldText}>Стаж работы:</span> 8 лет
-          </p>
-          <p>
-            <span className={c.boldText}>Услуги:</span> общий массаж,
-            антицелюлитный массаж, точечный массаж, баночный массаж
-          </p>
-          <a href="tel:+79162869949">
-            <button className={c.docButton}>Записаться на прием</button>
-          </a>
-        </div>
-        <div className={c.doctor}>
-          <div className={c.doctor_img}>
-            <img
-              src="https://medsi.ru/upload/resize_cache/iblock/654/328_350_2/654ecc63498b775ea095e3f9f8640cb8.jpg"
-              alt=""
-            />
+          <div className={c.doctor_aboutText}>
+            <h4>Сидоров Петр Петрович</h4>
+            <p>
+              <span className={c.boldText}>Специальность:</span> массажиcт
+            </p>
+            <p>
+              <span className={c.boldText}>Стаж работы:</span> 8 лет
+            </p>
+            <p className={c.about}>
+              <span className={c.boldText}>Услуги:</span> общий массаж,
+              антицелюлитный массаж, точечный массаж, баночный массаж
+            </p>
           </div>
-          <h4>Сидоров Петр Петрович</h4>
-          <p>
-            <span className={c.boldText}>Специальность:</span> массажиcт
-          </p>
-          <p>
-            <span className={c.boldText}>Стаж работы:</span> 8 лет
-          </p>
-          <p>
-            <span className={c.boldText}>Услуги:</span> общий массаж,
-            антицелюлитный массаж, точечный массаж, баночный массаж
-          </p>
-          <a href="tel:+79162869949">
-            <button className={c.docButton}>Записаться на прием</button>
-          </a>
-        </div>
-        <div className={c.doctor}>
-          <div className={c.doctor_img}>
-            <img
-              src="https://medsi.ru/upload/resize_cache/iblock/654/328_350_2/654ecc63498b775ea095e3f9f8640cb8.jpg"
-              alt=""
-            />
-          </div>
-          <h4>Сидоров Петр Петрович</h4>
-          <p>
-            <span className={c.boldText}>Специальность:</span> массажиcт
-          </p>
-          <p>
-            <span className={c.boldText}>Стаж работы:</span> 8 лет
-          </p>
-          <p>
-            <span className={c.boldText}>Услуги:</span> общий массаж,
-            антицелюлитный массаж, точечный массаж, баночный массаж
-          </p>
+
           <a href="tel:+79162869949">
             <button className={c.docButton}>Записаться на прием</button>
           </a>

@@ -54,9 +54,12 @@ input:focus {
 p {
   word-wrap: break-word;
 }
+.about {
+  height: 100px;
+}
 .doctor {
-  width: 20em;
-  height: 680px;
+  width: 30%;
+  height: fit-content;
   margin-top: 20px;
   display: flex;
   flex-direction: column;
@@ -68,7 +71,14 @@ p {
   width: 100%;
   height: auto;
 }
+.doctor_img img {
+  width: 100%;
+}
 
+.doctor_aboutText {
+  width: 90%;
+  margin: 0 auto;
+}
 .docButton {
   height: 46px;
   width: 95%;
@@ -77,8 +87,7 @@ p {
   border: 1px solid;
   border-radius: 8px;
   font-size: 20px;
-  margin-top: auto;
-  bottom: 0;
+  margin-bottom: 10px;
 }
 .docButton:hover {
   color: #fff;
@@ -122,5 +131,9 @@ p {
   .doctor {
     width: 90%;
     margin: 10px auto;
+  }
+
+  .about {
+    height: 50px;
   }
 }

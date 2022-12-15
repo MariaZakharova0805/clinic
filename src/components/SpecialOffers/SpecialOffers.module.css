@@ -37,10 +37,9 @@
   border: 1px solid;
   border-radius: 8px;
   font-size: 20px;
-  position: absoulte;
-  bottom: 0;
-  margin-bottom: 0;
-}
+ }
+
+
 .button:hover {
   color: #fff;
   background-color: #00b2ac;
